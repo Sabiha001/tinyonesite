@@ -1,0 +1,62 @@
+/*font-family: 'PT Sans', sans-serif;
+*/
+@font-face {
+  font-family: Helvetica-Neue-Bold;
+  src: url(../fonts/Helvetica-Neue-Bold.ttf);
+}
+body{
+	font-family: 'PT Sans', sans-serif;
+	color: #010101;
+}
+/*header start*/
+header{
+	background-color: #fcdb00;
+	padding: 20px 0;
+}
+/*header end*/
+
+.menu ul li a{
+	font-family: Helvetica-Neue-Bold;
+	padding: 0 35px !important;
+	font-size: 22px;
+	color: #010101;
+}
+.menu ul li:last-child a{
+	padding-right: 0 !important;
+}
+/*slider start*/
+.slider{
+	background-color: #fcdb00;
+	padding-bottom: 100px;
+}
+.inspire{
+	margin-top: 50px;
+}
+.inspire h1{
+	font-weight: 700;
+	font-size: 32px;
+	margin-bottom: 14px;
+}
+.inspire h5{
+	font-size: 20px;
+	color: #313841;
+	margin-bottom: 20px;
+}
+.inspire p{
+	font-size: 16px;
+	color: #313841;
+}
+.inspire ul li i{
+	font-size: 50px;
+	margin-right: 15px;
+	margin-bottom: 35px;
+}
+.ci{
+	bottom: -75px;
+}
+.ci li{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+}
+/*slider end*/
